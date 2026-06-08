@@ -5,7 +5,7 @@ const predictionLabel = document.getElementById('predictionLabel');
 const confidenceText = document.getElementById('confidenceText');
 const loading = document.getElementById('loading');
 
-const API_URL = 'http://127.0.0.1:8000/predict';
+const API_URL = 'https://spam-classifier-9uh3.onrender.com/predict';
 
 predictBtn.addEventListener('click', async () => {
     const message = messageInput.value.trim();
